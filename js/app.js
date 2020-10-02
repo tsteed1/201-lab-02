@@ -41,9 +41,9 @@ var homeLocation = prompt ('Are you from Seattle?').toLowerCase();
 
 if(homeLocation === 'yes' || homeLocation === 'y'){
   // console.log('Nope! I\'m originally from Indiana');
-  alert('Nope! I\'m originally from Indiana');
+  alert('Nope! I\'m sorry' + name +' I\'m originally from Indiana');
 } else {
-  alert('guessed wrong!');
+  alert('That is correct ' + name +'!');
   console.log( homeLocation + ' home is originally Indiana');
 }
   

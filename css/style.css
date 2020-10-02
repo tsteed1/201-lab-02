@@ -1,9 +1,19 @@
 body {
-  background-color: aqua;
+  background-color: rgb(193, 208, 231);
 }
 
 h1 {
   margin: 20px;
-  font-size: large;
+  font-size: 2em;
   font-weight: bold;
+  font-style: oblique;
+}
+
+p {
+  font-style: oblique;
+  padding: 15px;
+  font-size: 1.3em;
+  font-stretch: wider;
+  line-height: 2em;
+
 }
