@@ -2,7 +2,7 @@ body {
   background-color: rgb(193, 208, 231);
 }
 
-h1 {
+h1, h2 {
   margin: 20px;
   font-size: 2em;
   font-weight: bold;
