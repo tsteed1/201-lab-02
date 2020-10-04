@@ -85,7 +85,7 @@ if(guess1 < number ) {
 }
 
 // question 7
-var correctAnswer = ["Indiana", "Florida", "Virginia", "Washington"];
+var correctAnswer = ['Indiana', 'Florida', 'Virginia', 'Washington'];
 var guessAnswer = prompt('Guess what state I\ve lived in');
 var attempts = 6;
 var answeredCorrectly = false;
@@ -100,13 +100,14 @@ while (attempts > 0 && !answeredCorrectly)
 }
   if (attempts = true) {
   alert(`Yes I have lived in ${guessAnswer}`);
-}
-  guessAnswer = prompt("Sorry still is not correct, try again!");
+
+  guessAnswer = prompt('Sorry still is not correct, try again!');
   }
  if(attempts === 0 && !answeredCorrectly) {
-  alert ("Game Over!");
+  alert ('Game Over!');
+  }
 }
-alert(`You got ${points} / 7 points!`);
+  alert(`You got ${points} / 7 points!`);
 
 
 // alert('it is nice to meet you ' + name + '. ' + food + ' is my favorite too!' + date + ' is the best day for it ' + weather + '. ' + ' makes the day even better!')
