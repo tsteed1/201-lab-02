@@ -12,8 +12,15 @@ h1, h2 {
 p {
   font-style: oblique;
   padding: 15px;
-  font-size: 1.3em;
+  font-size: 1.7em;
   font-stretch: wider;
   line-height: 2em;
 
 }
+ ol {
+   list-style-type: decimal;
+   list-style-position: inside;
+   font-style: oblique;
+   font-size: 2em;
+
+ }

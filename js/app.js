@@ -83,10 +83,13 @@ if(guess1 < number ) {
     alert('Sorry' + name + 'you lose this time');
   } 
 }
+if (!correctAnswer){
+  alert('You are out of guesses, the correct answer was ' + guessNumber)
+}
 
 // question 7
 var correctAnswer = ['Indiana', 'Florida', 'Virginia', 'Washington'];
-var guessAnswer = prompt('Guess what state I\ve lived in');
+var guessAnswer = prompt('Guess what state I\ve lived in').toLowerCase;
 var attempts = 6;
 var answeredCorrectly = false;
 while (attempts > 0 && !answeredCorrectly)
@@ -106,6 +109,9 @@ while (attempts > 0 && !answeredCorrectly)
  if(attempts === 0 && !answeredCorrectly) {
   alert ('Game Over!');
   }
+}
+if (!correctAnswer){
+  alert('You are out of guesses, the correct answer was ' + guessAnswer)
 }
   alert(`You got ${points} / 7 points!`);
 
