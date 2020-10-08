@@ -52,7 +52,6 @@ if(homeLocation === 'yes' || homeLocation === 'y'){
   points++;
 }
 // question 6
-function Numbergame() {
 
 var tries = 0;
 var number = 5;
@@ -84,23 +83,23 @@ if(guess1 < number ) {
   } 
 }
 if (!correctAnswer){
-  alert('You are out of guesses, the correct answer was ' + guessNumber)
+  alert('You are out of guesses, the correct answer was ' + number);
 }
 
 // question 7
 var correctAnswer = ['Indiana', 'Florida', 'Virginia', 'Washington'];
-var guessAnswer = prompt('Guess what state I\ve lived in').toLowerCase;
+var guessAnswer = prompt('What state have i lived in?').toLowerCase;
 var attempts = 6;
 var answeredCorrectly = false;
 while (attempts > 0 && !answeredCorrectly)
   attempts--;
-  for (var i = 0; i < correctAnswer.length; i++) {
+  for (var i = 0; i < correctAnswer.length; i++) 
   if (guessAnswer === correctAnswers[i]) {
     answeredCorrectly = true;
     alert(`Yes I have lived in ${guessAnswer}`);
     points++;
   }
-}
+
   if (attempts = true) {
   alert(`Yes I have lived in ${guessAnswer}`);
 
@@ -109,10 +108,9 @@ while (attempts > 0 && !answeredCorrectly)
  if(attempts === 0 && !answeredCorrectly) {
   alert ('Game Over!');
   }
-}
 if (!correctAnswer){
-  alert('You are out of guesses, the correct answer was ' + guessAnswer)
-}
+  alert('You are out of guesses, the correct answer was ' + guessAnswer);
+  }
   alert(`You got ${points} / 7 points!`);
 
 
